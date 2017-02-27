@@ -1,0 +1,26 @@
+{
+  "name": "build-website",
+  "version": "1.0.0",
+  "description": "build a website using markdown and dustjs templates",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcowley/build-website.git"
+  },
+  "keywords": [
+    "build",
+    "website",
+    "dustjs",
+    "markdown"
+  ],
+  "author": "Trevor Cowley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcowley/build-website/issues"
+  },
+  "homepage": "https://github.com/tcowley/build-website#readme"
+}

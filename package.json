@@ -1,39 +1,40 @@
 {
-    "name": "build-website",
-    "version": "1.0.0",
-    "description": "build a website using markdown and dustjs templates",
-    "main": "index.js",
-    "private": true,
-    "scripts": {
-        "test": "tape './test/**/*.js' | tap-difflet"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/tcowley/build-website.git"
-    },
-    "keywords": [
-        "build",
-        "website",
-        "dustjs",
-        "markdown"
-    ],
-    "author": "Trevor Cowley",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/tcowley/build-website/issues"
-    },
-    "homepage": "https://github.com/tcowley/build-website#readme",
-    "dependencies": {
-        "dustjs-helpers": "^1.7.3",
-        "dustjs-linkedin": "^2.7.5",
-        "markdown-to-html": "0.0.13"
-    },
-    "devDependencies": {
-        "blue-tape": "^0.1.10",
-        "glob": "^5.0.14",
-        "tap-difflet": "^0.3.0",
-        "tap-min": "^1.0.0",
-        "tape": "^4.0.3",
-        "tape-catch": "^1.0.4"
-    }
+  "name": "dust-up",
+  "version": "1.0.0",
+  "description": "build a website using JSON, markdown and Dust.js templates",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "tape './test/**/*.js' | tap-difflet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcowley/dust-up.git"
+  },
+  "keywords": [
+    "build",
+    "dust-up",
+    "website",
+    "dustjs",
+    "markdown"
+  ],
+  "author": "Trevor Cowley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcowley/dust-up/issues"
+  },
+  "homepage": "https://github.com/tcowley/dust-up#readme",
+  "dependencies": {
+    "dustjs-helpers": "^1.7.3",
+    "dustjs-linkedin": "^2.7.5",
+    "markdown-to-html": "0.0.13"
+  },
+  "devDependencies": {
+    "blue-tape": "^0.1.10",
+    "glob": "^5.0.14",
+    "tap-difflet": "^0.3.0",
+    "tap-min": "^1.0.0",
+    "tape": "^4.0.3",
+    "tape-catch": "^1.0.4"
+  }
 }

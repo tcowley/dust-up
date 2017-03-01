@@ -1,1 +1,1 @@
-module.exports = require('lib/composer.js');
+module.exports = require('./lib/composer.js');

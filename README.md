@@ -1,4 +1,4 @@
-# dust-up
+# dust-up  [![Build Status](https://travis-ci.org/tcowley/dust-up.svg?branch=master)](https://travis-ci.org/tcowley/dust-up)
 
 ## Description
 

@@ -8,6 +8,8 @@ Dustup is a simple website compiler. It will build a static HTML site from a sou
 
 Install this package as an application using npm:
 
+NOTE: the global package installer is not yet ready, and so should not be used yet.
+
 ```
 npm install -g https://github.com/tcowley/dustup
 ```

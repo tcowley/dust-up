@@ -4,7 +4,10 @@
   "description": "Dustup is a simple website compiler. It will build a static HTML site from a source directory of Dust.js templates, JSON config files and any additional data source files you provide (e.g., text or markdown files for content).",
   "main": "index.js",
   "scripts": {
-    "test": "tape './test/**/*.js' | tap-difflet"
+    "test": "tape './test/**/*.js' | tap-difflet",
+    "preversion": "npm test",
+    "version": "",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",

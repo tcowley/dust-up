@@ -1,15 +1,14 @@
 {
-  "name": "dust-up",
-  "version": "1.0.0",
-  "description": "build a website using JSON, markdown and Dust.js templates",
+  "name": "dustup",
+  "version": "0.1.0",
+  "description": "Dustup is a simple website compiler. It will build a static HTML site from a source directory of Dust.js templates, JSON config files and any additional data source files you provide (e.g., text or markdown files for content).",
   "main": "index.js",
-  "private": true,
   "scripts": {
     "test": "tape './test/**/*.js' | tap-difflet"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tcowley/dust-up.git"
+    "url": "git+https://github.com/tcowley/dustup.git"
   },
   "keywords": [
     "build",
@@ -21,9 +20,9 @@
   "author": "Trevor Cowley",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tcowley/dust-up/issues"
+    "url": "https://github.com/tcowley/dustup/issues"
   },
-  "homepage": "https://github.com/tcowley/dust-up#readme",
+  "homepage": "https://github.com/tcowley/dustup#readme",
   "dependencies": {
     "dustjs-helpers": "^1.7.3",
     "dustjs-linkedin": "^2.7.5",

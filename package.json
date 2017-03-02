@@ -15,7 +15,8 @@
   },
   "keywords": [
     "build",
-    "dust-up",
+    "cli",
+    "dustup",
     "website",
     "dustjs",
     "markdown"
